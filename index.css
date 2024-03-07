@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Rationalist';
+    src: url('TT\ Rationalist\ Trial\ Normal.ttf');
+}
+@font-face {
+    font-family: 'Light';
+    src: url('TT\ Rationalist\ Trial\ Light.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+.header-img {
+    width: 400px;
+    border-radius: 8px;
+    margin-right: 50px;
+}
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: 'Rationalist';
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 30pt;
+}
+h2 {
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 50px;
+    color: #444;
+    font-size: 24pt;
+    font-family: 'Rationalist';
+}
+
+.scrollinfo  {
+    margin: 120px;
+}
+
+.applybutton {
+    background-color: #111;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Rationalist';
+    border: none;
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.soonbutton {
+    font-size: 12pt;
+    background-color: #fff;
+    font-family: 'Light';
+    border: 1px solid #888;
+    color: #444;
+    width: 240px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: #aaa;
+    margin-top: 30px;
+}
+
+.arrow {
+    width: 20px;
+    margin-top: 130px;
+}
+
+.body {
+    width: 70%;
+}
+html {
+    /* smooth gradient */
+    /* background: linear-gradient(145deg, rgb(66, 56, 171) 0%, rgb(205, 92, 156) 100%); */
+    /* color: white; */
+    /* background-color: #6e8fd0; */
+}
+.details {
+    /* width: 70%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.details > p {
+    font-family: 'Light';
+    margin: 0px 20px;
+}
+
+p {
+    font-family: 'Open Sans';
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+    .header-img {
+        width: 500px;
+    }
+    .headertext {
+        margin-top: 20px;
+    }
+    .top {
+        flex-direction: column;
+    }
+    p {
+        font-size: 15px;
+    }
+    .details > p {
+        font-size: 30px;
+    }
+    .body {
+        width: 90%;
+    }
+    .scrollinfo {
+        margin: 50px;
+    }
+    
+}
+
+.syllabus > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 20px;
+    background-color: #dfebf4;
+    /* margin: 20px; */
+    /* width: 50%; */
+    padding: 10px 50px;
+    border-radius: 10px;
+    /* border: 1px solid #333; */
+    box-shadow: 3px 5px 3px 0px #76767615;
+}
+.deliverable {
+    background-color: #f3e3f4 !important;
+    margin-left: 100px;
+    width: fit-content;
+}
+
+.syllabus > div > p {
+    margin-right: 40px;
+}
+.syllabus > div > p:nth-child(2) {
+    /* font-family: sans-serif; */
+    /* font-weight: 600; */
+    /* color: white; */
+}
+
+.teachingteam {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+.teachingteam > div {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pimg {
+    border-radius: 500px;
+    width: 150px;
+}
