@@ -52,6 +52,7 @@ h3 {
     color: #444;
     font-size: 24pt;
     font-family: 'Rationalist';
+    font-weight: 300;
 }
 
 .scrollinfo  {
@@ -133,6 +134,11 @@ p {
     }
     p {
         font-size: 15px;
+        font-family: sans-serif !important;
+    }
+    h3 {
+        font-family: sans-serif !important;
+        font-weight: 400;
     }
     .details > p {
         font-size: 30px;
