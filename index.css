@@ -157,7 +157,7 @@ p {
     padding: 10px 50px;
     border-radius: 10px;
     /* border: 1px solid #333; */
-    box-shadow: 3px 5px 3px 0px #76767615;
+    box-shadow: 3px 5px 10px 0px #76767611;
 }
 .deliverable {
     background-color: #f3e3f4 !important;
@@ -168,11 +168,6 @@ p {
 .syllabus > div > p {
     margin-right: 40px;
 }
-.syllabus > div > p:nth-child(2) {
-    /* font-family: sans-serif; */
-    /* font-weight: 600; */
-    /* color: white; */
-}
 
 .teachingteam {
     display: flex;
@@ -182,7 +177,7 @@ p {
     justify-content: center;
 }
 .teachingteam > div {
-    margin: 25px;
+    margin: 15px 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
